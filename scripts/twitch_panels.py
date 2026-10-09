@@ -11,7 +11,7 @@ import urllib.request
 from PIL import Image, ImageOps
 
 LOGIN = "iseedeadp3ople"
-OUTPUT = "metrics/twitch.svg"
+OUTPUT = "metrics/panels.svg"
 PER_ROW = 8
 ROWS = 7
 TILE_W, TILE_H, GAP = 52, 78, 6

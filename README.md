@@ -9,7 +9,7 @@
 > *Thanks for visiting!*
 
 [<img align="left" width="390" alt="🦑" src="metrics/general.svg">](#)
-[<img align="right" width="390" alt="🦑" src="metrics/twitch.svg">](#)
+[<img align="right" width="390" alt="🦑" src="metrics/panels.svg">](#)
 
 [<img align="right" width="390" alt="🦑" src="metrics/fortune.svg">](#)
 
