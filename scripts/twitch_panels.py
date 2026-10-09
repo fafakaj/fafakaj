@@ -20,6 +20,8 @@ EXCLUDED = {
     "136592081", "135154154", "135154146", "127259493", "124329055",
     "122036414", "122138582", "122138151", "122617283", "124068579",
 }
+# Panels the user asked to remove
+EXCLUDED |= {"124329031"}
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CSS = (ROOT / "scripts/metrics.css").read_text()
