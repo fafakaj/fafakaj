@@ -11,7 +11,7 @@
 [<img align="left" width="390" alt="🦑" src="metrics/general.svg">](#)
 [<img align="right" width="390" alt="🦑" src="metrics/medias.svg">](#)
 
-[<img align="right" width="390" alt="🦑" src="metrics/habits.svg">](#)
+[<img align="right" width="390" alt="🦑" src="metrics/fortune.svg">](#)
 
 [<img width="100%" height="1" alt="🦑" src="metrics/placeholder.svg">](#)
 
