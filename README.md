@@ -1,4 +1,4 @@
-> 👋 Hi, I'm **fafakaj** — a student who codes and joins hackathons.
+> Hi, I'm **fafakaj** — a student who codes and joins hackathons.
 > I'm into machine learning and data science, and I love building things fast at hackathons.
 > Lately I've been building LLM-powered agents that research, write and test code on their own.
 >
