@@ -55,16 +55,19 @@ jobs:
           plugin_anilist_limit: 2
           plugin_anilist_limit_characters: 22
 
-      - name: 🦑 Achievements
+      - name: 🦑 Habits
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics/achievements.svg
+          filename: metrics/habits.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ github.token }}
-          committer_message: "chore: update achievements"
+          committer_message: "chore: update habits"
           base: ""
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
+          config_timezone: Europe/Moscow
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 30
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
           plugin_fortune: yes
