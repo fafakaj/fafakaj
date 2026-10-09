@@ -3,9 +3,11 @@
 Usage: uv run --with pillow python scripts/twitch_panels.py
 """
 import base64
+import hashlib
 import io
 import json
 import pathlib
+import re
 import urllib.request
 
 from PIL import Image, ImageOps
@@ -81,6 +83,11 @@ def main():
 </svg>
 """
     (ROOT / OUTPUT).write_text(svg)
+    # Version query in README so GitHub's image cache picks up the new file
+    version = hashlib.sha1(svg.encode()).hexdigest()[:8]
+    readme = ROOT / "README.md"
+    pattern = re.escape(OUTPUT) + r"(\?v=\w+)?"
+    readme.write_text(re.sub(pattern, f"{OUTPUT}?v={version}", readme.read_text()))
     print(f"{OUTPUT}: {len(panels)} panels, {len(svg) // 1024} KB")
 
 
