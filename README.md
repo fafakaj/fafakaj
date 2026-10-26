@@ -4,9 +4,9 @@
 >
 > What I'm working on right now:
 > - [x] [`web_lab_1`](https://github.com/fafakaj/web_lab_1), [`web_lab_2`](https://github.com/fafakaj/web_lab_2) — web programming labs
-> - [ ] [`web_lab_3`](https://github.com/fafakaj/web_lab_3) — Jakarta EE + EclipseLink on Open Liberty
+> - [x] [`web_lab_3`](https://github.com/fafakaj/web_lab_3) — Jakarta EE + EclipseLink on Open Liberty
 >   - → in progress
-> - [ ] hackathons with AI agents
+> - [x] hackathons with AI agents
 >
 > *Thanks for visiting!*
 
